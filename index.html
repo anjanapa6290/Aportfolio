@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Anjana PA's personal portfolio showcasing skills, projects, certificates, and contact information.">
+
+    <title>Anjana PA | Developer Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Lucide icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="#home" class="logo">
+                ANJANA<span>.</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact" class="nav-contact">Contact ↗</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        COMPUTER ENGINEERING STUDENT
+                    </div>
+
+                    <p class="eyebrow">HELLO, I'M</p>
+
+                    <h1>
+                        Anjana
+                        <span>PA.</span>
+                    </h1>
+
+                    <h2>
+                        Computer Engineering Student
+                        <br>
+                        <span class="accent-text">& Aspiring Developer.</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        I enjoy building useful digital experiences, exploring
+                        new technologies, and solving problems through code.
+                        I'm passionate about web development and cybersecurity.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Work
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <!-- Replace YOUR_USERNAME with your GitHub username -->
+                        <a href="https://github.com/YOUR_USERNAME"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="GitHub">
+                            <i data-lucide="github"></i>
+                            <span>GitHub</span>
+                        </a>
+
+                        <!-- Replace YOUR_USERNAME with your LinkedIn username -->
+                        <a href="https://www.linkedin.com/in/YOUR_USERNAME/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            <i data-lucide="linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Profile card -->
+                <div class="hero-visual">
+
+                    <div class="visual-glow"></div>
+
+                    <div class="profile-card">
+
+                        <div class="card-top">
+                            <span class="card-label">PERSONAL PROFILE</span>
+
+                            <span class="card-icon">
+                                <i data-lucide="code-2"></i>
+                            </span>
+                        </div>
+
+                        <div class="avatar">
+                            <span>A</span>
+                        </div>
+
+                        <h3>Anjana PA</h3>
+
+                        <p class="profile-role">
+                            Computer Engineering Student
+                        </p>
+
+                        <div class="card-divider"></div>
+
+                        <div class="profile-info">
+                            <div>
+                                <span class="info-label">INTEREST</span>
+                                <span class="info-value">Web Development</span>
+                            </div>
+
+                            <div>
+                                <span class="info-label">EXPLORING</span>
+                                <span class="info-value">Cybersecurity</span>
+                            </div>
+
+                            <div>
+                                <span class="info-label">FOCUS</span>
+                                <span class="info-value">Learning & Building</span>
+                            </div>
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="status-dot"></span>
+                            Always learning something new
+                        </div>
+
+                    </div>
+
+                    <div class="floating-tag tag-top">
+                        <i data-lucide="terminal"></i>
+                        <span>Developer in progress</span>
+                    </div>
+
+                    <div class="floating-tag tag-bottom">
+                        <i data-lucide="sparkles"></i>
+                        <span>Curious by nature</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-indicator" aria-label="Scroll to About">
+                <span>SCROLL TO EXPLORE</span>
+                <i data-lucide="arrow-down"></i>
+            </a>
+
+        </section>
+
+        <!-- About -->
+        <section class="section section-border" id="about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">01 / ABOUT ME</p>
+                    <h2>A little about <span>myself.</span></h2>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-main">
+                        <p class="about-lead">
+                            I'm a Computer Engineering student who loves
+                            understanding how technology works and using it
+                            to create practical solutions.
+                        </p>
+
+                        <p>
+                            My interests include frontend development,
+                            programming, cybersecurity, and emerging
+                            technologies. I enjoy learning by building
+                            projects, experimenting with ideas, and improving
+                            my skills one step at a time.
+                        </p>
+
+                        <p>
+                            My goal is to grow into a skilled developer who
+                            creates clean, accessible, and useful digital
+                            experiences.
+                        </p>
+                    </div>
+
+                    <div class="about-details">
+
+                        <div class="detail-card">
+                            <i data-lucide="graduation-cap"></i>
+                            <div>
+                                <h3>Education</h3>
+                                <p>Computer Engineering</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-card">
+                            <i data-lucide="code-2"></i>
+                            <div>
+                                <h3>Interests</h3>
+                                <p>Development & Programming</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-card">
+                            <i data-lucide="shield-check"></i>
+                            <div>
+                                <h3>Exploring</h3>
+                                <p>Cybersecurity & Technology</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-card">
+                            <i data-lucide="lightbulb"></i>
+                            <div>
+                                <h3>Mindset</h3>
+                                <p>Learn, build, improve</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section section-border" id="skills">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">02 / SKILLS</p>
+                    <h2>Technologies I'm <span>exploring.</span></h2>
+                    <p class="section-description">
+                        The tools and technologies I'm learning and using
+                        in my projects.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <div class="skill-icon">
+                            <i data-lucide="monitor"></i>
+                        </div>
+                        <h3>Frontend Development</h3>
+                        <p>Building responsive and user-friendly websites.</p>
+                        <div class="skill-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">
+                            <i data-lucide="code"></i>
+                        </div>
+                        <h3>Programming</h3>
+                        <p>Developing logical thinking and coding skills.</p>
+                        <div class="skill-tags">
+                            <span>C</span>
+                            <span>Java</span>
+                            <span>Python</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">
+                            <i data-lucide="layers"></i>
+                        </div>
+                        <h3>Tools & Platforms</h3>
+                        <p>Creating projects and managing source code.</p>
+                        <div class="skill-tags">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>VS Code</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">
+                            <i data-lucide="shield-check"></i>
+                        </div>
+                        <h3>Cybersecurity</h3>
+                        <p>Exploring security concepts and vulnerability analysis.</p>
+                        <div class="skill-tags">
+                            <span>Networking</span>
+                            <span>Linux</span>
+                            <span>Security Basics</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section section-border" id="projects">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">03 / PROJECTS</p>
+                    <h2>Things I've <span>worked on.</span></h2>
+                    <p class="section-description">
+                        A selection of academic projects and ideas that
+                        reflect my learning journey.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <div class="project-number">PROJECT / 01</div>
+
+                        <div class="project-icon">
+                            <i data-lucide="accessibility"></i>
+                        </div>
+
+                        <h3>Voice-Controlled Wheelchair Using IoT</h3>
+
+                        <p>
+                            An assistive mobility project using voice commands
+                            to control a wheelchair. The concept uses an ESP32,
+                            a motor driver, and an obstacle-detection sensor.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>ESP32</span>
+                            <span>IoT</span>
+                            <span>Embedded Systems</span>
+                        </div>
+
+                        <a href="#contact" class="project-link">
+                            Ask about project
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">PROJECT / 02</div>
+
+                        <div class="project-icon">
+                            <i data-lucide="shield-alert"></i>
+                        </div>
+
+                        <h3>Asset Vulnerability Analyzer</h3>
+
+                        <p>
+                            A learning project focused on reviewing asset
+                            information and identifying potential security
+                            concerns through predefined checks.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>Cybersecurity</span>
+                            <span>Web</span>
+                        </div>
+
+                        <a href="#contact" class="project-link">
+                            Ask about project
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">PROJECT / 03</div>
+
+                        <div class="project-icon">
+                            <i data-lucide="cloud"></i>
+                        </div>
+
+                        <h3>Personal Portfolio Website</h3>
+
+                        <p>
+                            A responsive personal website to present my
+                            background, skills, projects, and contact
+                            information in one place.
+                        </p>
+
+                        <div class="skill-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="#home" class="project-link">
+                            Back to top
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates -->
+        <section class="section section-border" id="certificates">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">04 / CERTIFICATES</p>
+                    <h2>Learning and <span>growing.</span></h2>
+                    <p class="section-description">
+                        Courses, certifications, and achievements from my
+                        learning journey.
+                    </p>
+                </div>
+
+                <!-- AI UDAAN Certificate -->
+<div class="certificate-placeholder">
+    <div class="certificate-icon">
+        <i data-lucide="brain"></i>
+    </div>
+
+    <h3>AI UDAAN Program</h3>
+
+    <p>
+        Learning about Artificial Intelligence and exploring
+        emerging AI technologies as part of my learning journey.
+    </p>
+
+    <a href="certificates/ai-udaan.pdf"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="text-link">
+        View Certificate
+        <i data-lucide="arrow-up-right"></i>
+    </a>
+</div>
+
+<!-- Prompt Like an Engineer Certificate -->
+<div class="certificate-placeholder">
+    <div class="certificate-icon">
+        <i data-lucide="terminal"></i>
+    </div>
+
+    <h3>Prompt Like an Engineer</h3>
+
+    <p>
+        Exploring prompt engineering techniques and learning
+        how to communicate effectively with generative AI tools.
+    </p>
+
+    <a href="certificates/prompt-like-an-engineer.pdf"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="text-link">
+        View Certificate
+        <i data-lucide="arrow-up-right"></i>
+    </a>
+</div>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section section-border" id="contact">
+            <div class="container">
+
+                <div class="contact-panel">
+
+                    <div class="contact-content">
+                        <p class="eyebrow">05 / CONTACT</p>
+
+                        <h2>
+                            Have an idea?
+                            <br>
+                            <span>Let's connect.</span>
+                        </h2>
+
+                        <p>
+                            I'm always interested in learning, discussing
+                            technology, and connecting with people who enjoy
+                            building useful things.
+                        </p>
+
+                        <!-- Replace with your actual email -->
+                        <a href="mailto:YOUR_EMAIL@example.com"
+                           class="btn btn-primary">
+                            <i data-lucide="mail"></i>
+                            Send Me an Email
+                        </a>
+                    </div>
+
+                    <div class="contact-decoration">
+                        <i data-lucide="send"></i>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">
+                ANJANA<span>.</span>
+            </a>
+
+            <p>
+                Designed and built by Anjana PA.
+            </p>
+
+            <p class="copyright">
+                © <span id="year"></span> Anjana PA. All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+</html>
